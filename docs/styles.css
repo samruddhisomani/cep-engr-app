@@ -1,0 +1,90 @@
+/* All of your CSS goes below */
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+body, html {
+height: 100%;
+}
+
+/* this sets the background image */
+/* https://pixabay.com/en/winding-road-road-travel-sunrise-1556177/ */
+.bg{
+/* The image used */
+background-image: url("img/windingroad.jpg");
+
+/* Full height */
+height: 100%;
+
+opacity: 0.5;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+position: relative;
+}
+
+.fab{
+    font-size: 48;
+}
+
+#root{
+    position: absolute;
+    top: 0vw;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* this stylizes the header block */
+h1 {
+    background-color:rgba(255,255,255,0.6);
+    width: 80%;
+    text-align: center;
+    margin:1em;
+}
+
+#button-container {
+    /* position: absolute;
+    top: 10vw; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    width: 80%;
+    background-color:rgba(255,255,255,0.6);
+    padding: 3em 0em;
+}
+
+button{
+    background-color:slategray;
+    color: white;
+    padding: 1em;
+}
+
+#answers{
+    background-color:rgba(255,255,255,0.6);
+    width: 80%;
+    display:flex;
+    justify-content: space-evenly;
+    margin: 2em;
+    padding: 1em 0em;
+}
+
+#answerstext{
+    flex-basis:40%
+}
+
+#selfie{
+    max-height: 200px;
+    align-self: flex-start;
+}
