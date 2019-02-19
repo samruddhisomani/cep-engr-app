@@ -95,7 +95,8 @@ main{
 }
 
 #answerstext{
-    flex-basis:40%
+    flex-basis:40%;
+    text-align:center;
 }
 
 #selfie{
