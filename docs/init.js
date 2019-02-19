@@ -1,9 +1,9 @@
 // create a JavaScript object here with the following fields: firstName, lastName, jobTitle, homeOffice
 
 const tellmemore =
-    '<a href="https://github.com/samruddhisomani/Showcase"><i class="fab fa-github-square fa-lg"></i></a>   ' +
-    '<a href="https://twitter.com/samruddhisomani"><i class="fab fa-twitter-square fa-lg"></i></a>  ' +
-    '<a href="https://www.linkedin.com/in/samruddhisomani"><i class="fab fa-linkedin fa-lg"></i></a>'
+    '<a href="https://github.com/samruddhisomani/Showcase" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>   ' +
+    '<a href="https://twitter.com/samruddhisomani" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>  ' +
+    '<a href="https://www.linkedin.com/in/samruddhisomani" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>'
 
 const init = {
     firstName: 'Samruddhi',
