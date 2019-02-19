@@ -90,6 +90,10 @@ main{
     padding: 1em 0em;
 }
 
+#answers a {
+    color:black;
+}
+
 #answerstext{
     flex-basis:40%
 }
@@ -108,4 +112,8 @@ main{
 
 #catphotoimg{
     max-width:4in;
+}
+
+.modal{
+    border-radius:0 !important;
 }
