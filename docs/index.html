@@ -10,24 +10,42 @@
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
   <!-- // All of your HTML goes here -->
   <div class='bg'> </div>
   <div id='root'>
-    <h1>About Me!</h1>
-    <div id='button-container'>
-      <button id='firstname'>First Name</button>
-      <button id='lastname'>Last Name</button>
-      <button id='jobtitle'>Job Title</button>
-      <button id='homeoffice'>Home Office</button>
-      <button id='tellmemore'>Tell Me More</button>
-    </div>
-    <div id='answers'>
-      <!-- <img id='selfie' src='img/self.jpg' alt='A photo of me'> -->
-      <p id='answerstext'>Photo of Me!</p>
-    </div>
+    <header>
+      <h1>About Me!</h1>
+    </header>
+
+    <main>
+      <div id='button-container'>
+        <button id='firstname'>First Name</button>
+        <button id='lastname'>Last Name</button>
+        <button id='jobtitle'>Job Title</button>
+        <button id='homeoffice'>Home Office</button>
+        <button id='tellmemore'>Tell Me More</button>
+      </div>
+      <div id='answers'>
+        <img id='selfie' src='img/self.jpg' alt='A selfie of me'>
+        <p id='answerstext'>Photo of Me!</p>
+      </div>
+
+      <!-- Modal HTML embedded directly into document -->
+      <div id="ex1" class="modal">
+        <a href="#" rel="modal:close"><button>Close</button></a>
+      </div>
+
+      <!-- Link to open the modal -->
+      <div id='catphoto'>
+        <a id='catlink' href="#ex1" rel="modal:open"><button>Click for a random cat photo</button></a>
+      </div>
+    </main>
+
   </div>
   <script src="init.js"></script>
 </body>

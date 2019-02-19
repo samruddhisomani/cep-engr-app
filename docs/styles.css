@@ -47,20 +47,18 @@ position: relative;
 }
 
 /* this stylizes the header block */
-h1 {
+header {
     background-color:rgba(255,255,255,0.6);
     width: 80%;
     text-align: center;
-    margin:1em;
+    margin:2em;
 }
 
+
 #button-container {
-    /* position: absolute;
-    top: 10vw; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
     background-color:rgba(255,255,255,0.6);
     padding: 3em 0em;
 }
@@ -71,12 +69,24 @@ button{
     padding: 1em;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+    z-index:3;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+}
+
 #answers{
     background-color:rgba(255,255,255,0.6);
-    width: 80%;
+    width: 100%;
     display:flex;
     justify-content: space-evenly;
-    margin: 2em;
+    margin: 2em 0em;
     padding: 1em 0em;
 }
 
@@ -87,4 +97,15 @@ button{
 #selfie{
     max-height: 200px;
     align-self: flex-start;
+}
+
+#catphoto{
+    background-color:rgba(255,255,255,0.6);
+    width: 100%;
+    text-align:center;
+    padding: 3em 0em;
+}
+
+#catphotoimg{
+    max-width:4in;
 }
